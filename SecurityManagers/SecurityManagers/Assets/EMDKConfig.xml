@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+<characteristic type="ProfileInfo">
+<parm name="created_wizard_version" value="6.6.0"/>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="TM_Lock_Device"/>
+<parm name="ModifiedDate" value="2018-02-15 14:50:48"/>
+<parm name="TargetSystemVersion" value="4.4"/>
+<characteristic type="ThreatMgr" version="4.3">
+<parm name="emdk_name" value="TM_Lock_Device"/>
+<parm name="ThreatAction" value="1"/>
+<parm name="ThreatName" value="MDMClientRemoval"/>
+<parm name="MDMPackage" value="com.darryn.emmclientstub"/>
+<characteristic type="CounterMeasure">
+<parm name="LockDevice" value="1"/>
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="AM_Simple_Whitelist"/>
+<parm name="ModifiedDate" value="2018-04-11 09:14:14"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="AccessMgr" version="4.3">
+<parm name="emdk_name" value="AM_Simple_Whitelist"/>
+<parm name="OperationMode" value="2"/>
+<parm name="SystemSettings" value="2"/>
+<parm name="AppVerifySignMode" value="1"/>
+<parm name="AddPackagesActionAllowXML" value="1"/>
+<parm name="AddPackageNamesAllowXML" value="com.darryn.emmclientstub,com.company.SecurityManagers"/>
+<parm name="AllowSubmitXMLAction" value="2"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="AM_Disable_Whitelist"/>
+<parm name="ModifiedDate" value="2018-02-15 09:16:20"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="AccessMgr" version="4.3">
+<parm name="emdk_name" value="AM_Disable_Whitelist"/>
+<parm name="OperationMode" value="1"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="AM_Signed_Whitelist"/>
+<parm name="ModifiedDate" value="2018-04-11 10:38:00"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="AccessMgr" version="4.3">
+<parm name="emdk_name" value="AM_Signed_Whitelist"/>
+<parm name="OperationMode" value="2"/>
+<parm name="SystemSettings" value="1"/>
+<parm name="AppVerifySignMode" value="2"/>
+<parm name="AddPackagesAction" value="1"/>
+<parm name="AddPackageNames" value="com.company.SecurityManagers,com.darryn.emmclientstub"/>
+<parm name="AddPackageSign" value="3082030d308201f5a00302010202040e45e935300d06092a864886f70d01010b05003037310b30090603550406130255533110300e060355040a1307416e64726f6964311630140603550403130d416e64726f6964204465627567301e170d3138303231333135303931305a170d3438303230363135303931305a3037310b30090603550406130255533110300e060355040a1307416e64726f6964311630140603550403130d416e64726f696420446562756730820122300d06092a864886f70d01010105000382010f003082010a0282010100b3ca06abeff8b3a5f8dd6bc9fe2f56ec9e6356732236946f080eddfc2a8b4703d15131840e054714dda7f7598b7f4e6cefee1c922d67a4dd5cb5ac8ba26a70616e39aa416e10746b8293179d3735890abbc8ea06534d6671c5b6602ec2c206bfa1dc6edfebd7defe1285c127c1ec2de64f25a55b1c82ddffe6c8721e1616ceb80c289d11891576748c185ddf8ea6f7ca5e8a4d0b63fc98bb0212b8abec486f275ce8cfd3676055ce515a2fa27e01c16866f423d2c84e774d4eefd3345437657b0f298488785fb64f63f0b8fe015b50eeb242af9e30126fbfb0afee253549806609a7f98614217df3bb7a30fda328c1bfdee791120a9d4bc7db31c3df1d2b75590203010001a321301f301d0603551d0e04160414f5c079635df752179b73b0e3620848f1a9a16d3b300d06092a864886f70d01010b0500038201010027832a7f6829c9fbb45846da245d965061c46c9356d3eb81eb4a27ac46fe000a1ee7e3ed1eef7372076938f31841c7a826f33e872f316a140d73d751706869f507906478869391a4a9b5c88c2b7bc4c8457d42ca6fdaae91401032440d3f69b510a0e745569cb547b58302e01b10508e960debe02239436f6fe9773fb9d3f4dc45c01d2d87959f985b15e8e17f7aff81356cbf57b1150ed113a58407b86a64ccbdf4fede9b41f92c450ddf696b2e0a1b0979163c7b82d61eaea3039308be99f17851468ca7e9bf03df1ba23cd3195b630ef39b1e77ade6389b258dcede4e5a42b394fb1dfd66dfd3ec03a36f53aba3e27fa2d87cb5aee740842f15a7b3b6bc0d,30820313308201fba003020102020469375171300d06092a864886f70d01010b0500303a310e300c060355040a13055a65627261310e300c060355040b13055a65627261311830160603550403130f44617272796e2043616d7062656c6c301e170d3137303130363137313435375a170d3431313233313137313435375a303a310e300c060355040a13055a65627261310e300c060355040b13055a65627261311830160603550403130f44617272796e2043616d7062656c6c30820122300d06092a864886f70d01010105000382010f003082010a028201010086afc5c43c16d737fb63284e3aa6145383e356f04d0d3e2319faec1d51a7b4026bda539568e3a4de9d3f9efd5ecf3eae33b317f51af33dc69d1ad4f04fcfaa7f819060e874820d648c4675ddde6ca0b0c8a1cea517567a3122cdf71f9486d081d097da9e4e25ea808792f66e01cc836845535711c3363bb815dd4e961b31e166892997642045e88b4264b1bbe51c96ebb49df2629388d106b714e1232de5b4d11912534ca7f8e11e4ced9fd1d8d10c1d233f87eec663ce60d7bae99ef3441fa7b3d087b824d33cd04838ecd62d1c61394c4c46788c97dc6b93bb933a86cd3387e8285e85b7b9c53cf95d3ce176a9563d50191313d46194926cd06c7bb13a8ba90203010001a321301f301d0603551d0e041604146a6c4b8a8e275f62f280889d57018fe5a3bc3db7300d06092a864886f70d01010b050003820101008282d01f1d39024fff2acc8c093bf101616e9978dc7ecd5c2cc6cac15db16d4c178df0f313128f6843bc2c26d51dd2eeda0a1e242c2439c2d69653912ea7fe15e580fcd3df69d944490db43c1dc3312254c881a3ed7ae05a9d04abc1b6c25db257d356fe31e7f5e0cef0fd25e85382166a97cfb32d7dba61b6056e1d558971453aa42a8c11ea734d87f8447502685eb8e4cf227ed94b162e12e479f79d17bb4ac85be3bef4d90205679cf952f0ef4b8a6b446bb0e0ce95f1977d45bc5c0ba5ca13d3abbca497b52701be66c1e05a9abaccd445ddefe5ed27a5e9beede1077a1ef636757d0bc1f651159f45ad5c25bb970bd7e2b3e0019aaa5d69082e177f5e0d"/>
+<parm name="AddPackagesActionAllowXML" value="1"/>
+<parm name="AddPackageNamesAllowXML" value="com.company.SecurityManagers,com.darryn.emmclientstub"/>
+<parm name="AddPackageSignAllowXML" value="3082030d308201f5a00302010202040e45e935300d06092a864886f70d01010b05003037310b30090603550406130255533110300e060355040a1307416e64726f6964311630140603550403130d416e64726f6964204465627567301e170d3138303231333135303931305a170d3438303230363135303931305a3037310b30090603550406130255533110300e060355040a1307416e64726f6964311630140603550403130d416e64726f696420446562756730820122300d06092a864886f70d01010105000382010f003082010a0282010100b3ca06abeff8b3a5f8dd6bc9fe2f56ec9e6356732236946f080eddfc2a8b4703d15131840e054714dda7f7598b7f4e6cefee1c922d67a4dd5cb5ac8ba26a70616e39aa416e10746b8293179d3735890abbc8ea06534d6671c5b6602ec2c206bfa1dc6edfebd7defe1285c127c1ec2de64f25a55b1c82ddffe6c8721e1616ceb80c289d11891576748c185ddf8ea6f7ca5e8a4d0b63fc98bb0212b8abec486f275ce8cfd3676055ce515a2fa27e01c16866f423d2c84e774d4eefd3345437657b0f298488785fb64f63f0b8fe015b50eeb242af9e30126fbfb0afee253549806609a7f98614217df3bb7a30fda328c1bfdee791120a9d4bc7db31c3df1d2b75590203010001a321301f301d0603551d0e04160414f5c079635df752179b73b0e3620848f1a9a16d3b300d06092a864886f70d01010b0500038201010027832a7f6829c9fbb45846da245d965061c46c9356d3eb81eb4a27ac46fe000a1ee7e3ed1eef7372076938f31841c7a826f33e872f316a140d73d751706869f507906478869391a4a9b5c88c2b7bc4c8457d42ca6fdaae91401032440d3f69b510a0e745569cb547b58302e01b10508e960debe02239436f6fe9773fb9d3f4dc45c01d2d87959f985b15e8e17f7aff81356cbf57b1150ed113a58407b86a64ccbdf4fede9b41f92c450ddf696b2e0a1b0979163c7b82d61eaea3039308be99f17851468ca7e9bf03df1ba23cd3195b630ef39b1e77ade6389b258dcede4e5a42b394fb1dfd66dfd3ec03a36f53aba3e27fa2d87cb5aee740842f15a7b3b6bc0d,30820313308201fba003020102020469375171300d06092a864886f70d01010b0500303a310e300c060355040a13055a65627261310e300c060355040b13055a65627261311830160603550403130f44617272796e2043616d7062656c6c301e170d3137303130363137313435375a170d3431313233313137313435375a303a310e300c060355040a13055a65627261310e300c060355040b13055a65627261311830160603550403130f44617272796e2043616d7062656c6c30820122300d06092a864886f70d01010105000382010f003082010a028201010086afc5c43c16d737fb63284e3aa6145383e356f04d0d3e2319faec1d51a7b4026bda539568e3a4de9d3f9efd5ecf3eae33b317f51af33dc69d1ad4f04fcfaa7f819060e874820d648c4675ddde6ca0b0c8a1cea517567a3122cdf71f9486d081d097da9e4e25ea808792f66e01cc836845535711c3363bb815dd4e961b31e166892997642045e88b4264b1bbe51c96ebb49df2629388d106b714e1232de5b4d11912534ca7f8e11e4ced9fd1d8d10c1d233f87eec663ce60d7bae99ef3441fa7b3d087b824d33cd04838ecd62d1c61394c4c46788c97dc6b93bb933a86cd3387e8285e85b7b9c53cf95d3ce176a9563d50191313d46194926cd06c7bb13a8ba90203010001a321301f301d0603551d0e041604146a6c4b8a8e275f62f280889d57018fe5a3bc3db7300d06092a864886f70d01010b050003820101008282d01f1d39024fff2acc8c093bf101616e9978dc7ecd5c2cc6cac15db16d4c178df0f313128f6843bc2c26d51dd2eeda0a1e242c2439c2d69653912ea7fe15e580fcd3df69d944490db43c1dc3312254c881a3ed7ae05a9d04abc1b6c25db257d356fe31e7f5e0cef0fd25e85382166a97cfb32d7dba61b6056e1d558971453aa42a8c11ea734d87f8447502685eb8e4cf227ed94b162e12e479f79d17bb4ac85be3bef4d90205679cf952f0ef4b8a6b446bb0e0ce95f1977d45bc5c0ba5ca13d3abbca497b52701be66c1e05a9abaccd445ddefe5ed27a5e9beede1077a1ef636757d0bc1f651159f45ad5c25bb970bd7e2b3e0019aaa5d69082e177f5e0d"/>
+<parm name="AllowSubmitXMLAction" value="2"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="EM_Install_Key"/>
+<parm name="ModifiedDate" value="2018-02-15 13:55:17"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="EncryptMgr" version="4.3">
+<parm name="emdk_name" value="EM_Install_Key"/>
+<characteristic type="InstallKey">
+<parm name="InstallKeyAction" value="1"/>
+<characteristic type="InstallKeyDetails">
+<parm name="InstallKeyName" value="sdCardKey"/>
+<parm name="InstallKeyValue" value="&amp;#127 0 &amp;#127YWLubzyTUvvajXOTGdE/6YbcR8IDnAClTXDS+2kCS1BPxfeilbXiy7QYISKGtBdZWtUUmqPPLXzn40QmUakgJfZe8Fqpcse1jA8zBJI9RtCNLPUSIFW3R1SZxs/iQ3EkII2emCTFsLMhpd8b9MnAOMS3kJQFgYNC0MHY26HJkOLK8QXk0TT+K6WI32qRAbdwQZ5qupVe1QIgIDl+LHs2eZ9LPZrFGql87QhfUuAX+FxUztz1RxXmbt43UDot3pHqgETLTw0XaSLKGcbvNss2O3D2ugvjFQ0Fv8IXcMLcXwrLMsLISIFMGYWixM+y7vyck/c2uonymLHLGnouoQzo0Q=="/>
+</characteristic>
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="EM_Revoke_Key"/>
+<parm name="ModifiedDate" value="2018-02-15 13:14:50"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="EncryptMgr" version="4.3">
+<parm name="emdk_name" value="EM_Revoke_Key"/>
+<parm name="RevokeKeyAction" value="1"/>
+<parm name="RevokeKeyName" value="sdCardKey"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="EM_Encrypt_Storage_Card"/>
+<parm name="ModifiedDate" value="2018-02-15 13:15:41"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="EncryptMgr" version="4.3">
+<parm name="emdk_name" value="EM_Encrypt_Storage_Card"/>
+<parm name="SdCardOperation" value="1"/>
+<parm name="SdCardKeyName" value="sdCardKey"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="TM_Revoke_Keys"/>
+<parm name="ModifiedDate" value="2018-02-15 14:10:39"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="ThreatMgr" version="4.3">
+<parm name="emdk_name" value="TM_Revoke_Keys"/>
+<parm name="ThreatAction" value="1"/>
+<parm name="ThreatName" value="MDMClientRemoval"/>
+<parm name="MDMPackage" value="com.darryn.emmclientstub"/>
+<characteristic type="CounterMeasure">
+<parm name="WipeSecureStorageKeys" value="1"/>
+<parm name="LockDevice" value="1"/>
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="TM_Unsolicited_Alert"/>
+<parm name="ModifiedDate" value="2018-02-15 14:32:56"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="ThreatMgr" version="4.3">
+<parm name="emdk_name" value="TM_Unsolicited_Alert"/>
+<parm name="ThreatAction" value="1"/>
+<parm name="ThreatName" value="MDMClientRemoval"/>
+<parm name="MDMPackage" value="com.darryn.emmclientstub"/>
+<characteristic type="CounterMeasure">
+<parm name="UnsolicitedAlert" value="1"/>
+<parm name="AlertPackage" value="com.darryn.unsolicitedalertreceiver"/>
+<parm name="AlertClass" value="com.darryn.unsolicitedalertreceiver.MainActivity"/>
+<parm name="AlertMsg" value="Test Unsolicited Alert"/>
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="OM_Disable_Camera"/>
+<parm name="ModifiedDate" value="2018-02-15 15:41:03"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="CameraMgr" version="4.3">
+<parm name="emdk_name" value="OM_Disable_Camera"/>
+<parm name="UseAllCameras" value="2"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="OM_Enable_Camera"/>
+<parm name="ModifiedDate" value="2018-02-15 15:41:25"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="CameraMgr" version="4.3">
+<parm name="emdk_name" value="OM_Enable_Camera"/>
+<parm name="UseAllCameras" value="1"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="OM_Install_Certificate"/>
+<parm name="ModifiedDate" value="2018-02-15 16:14:12"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="CertMgr" version="4.2">
+<parm name="emdk_name" value="OM_Install_Certificate"/>
+<parm name="CertAction" value="1"/>
+<characteristic type="cert-details">
+<parm name="CertAlias" value="ExampleCertificate"/>
+<parm name="CertType" value="5"/>
+<parm name="CertMethod" value="2"/>
+<parm name="CertFileCA" value="/storage/sdcard0/ca.crt"/>
+<parm name="CertAdjustClock" value="false"/>
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="OM_Enable_SDCard"/>
+<parm name="ModifiedDate" value="2018-02-15 16:44:53"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="SdCardMgr" version="4.3">
+<parm name="emdk_name" value="OM_Enable_SDCard"/>
+<parm name="SdCardUsage" value="1"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="OM_Disable_SDCard"/>
+<parm name="ModifiedDate" value="2018-02-15 16:45:16"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="SdCardMgr" version="4.3">
+<parm name="emdk_name" value="OM_Disable_SDCard"/>
+<parm name="SdCardUsage" value="2"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="OM_Enable_USB"/>
+<parm name="ModifiedDate" value="2018-02-15 16:45:37"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="UsbMgr" version="4.2">
+<parm name="emdk_name" value="OM_Enable_USB"/>
+<parm name="UsbModuleUsage" value="1"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="OM_Disable_USB"/>
+<parm name="ModifiedDate" value="2018-02-15 16:45:58"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="UsbMgr" version="4.2">
+<parm name="emdk_name" value="OM_Disable_USB"/>
+<parm name="UsbModuleUsage" value="2"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="OM_Enable_Unknown_Sources"/>
+<parm name="ModifiedDate" value="2018-02-15 16:46:31"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="DevAdmin" version="4.3">
+<parm name="emdk_name" value="OM_Enable_Unknown_Sources"/>
+<parm name="UnknownSourcesStatus" value="1"/>
+</characteristic>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="OM_Disable_Unknown_Sources"/>
+<parm name="ModifiedDate" value="2018-02-15 16:46:52"/>
+<parm name="TargetSystemVersion" value="5.0"/>
+<characteristic type="DevAdmin" version="4.3">
+<parm name="emdk_name" value="OM_Disable_Unknown_Sources"/>
+<parm name="UnknownSourcesStatus" value="2"/>
+</characteristic>
+</characteristic>
+</wap-provisioningdoc>
